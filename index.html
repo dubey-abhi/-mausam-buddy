@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mausam Buddy ☀️</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <h1>🌤️ Mausam Buddy</h1>
+    <p class="greeting">नमस्ते! अपना शहर डालें और मौसम देखें</p>
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="Jaipur, Mumbai, Delhi..." />
+      <button onclick="getWeather()">Check</button>
+    </div>
+    <div id="weatherResult" class="weather-card hidden">
+      <h2 id="cityName"></h2>
+      <img id="weatherIcon" alt="Weather Icon">
+      <p id="description"></p>
+      <p id="temperature"></p>
+      <p id="humidity"></p>
+      <p id="wind"></p>
+      <p id="message"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
