@@ -18,7 +18,7 @@ A simple Hindi-English weather app using OpenWeather API.
 
 ## 🌐 Live Demo
 
-👉 [Click here to visit Mausam Buddy!](https://your-dubey-abhi.github.io/mausam-buddy/)
+👉 [Click here to visit Mausam Buddy!](https://dubey-abhi.github.io/-mausam-buddy/)
 
 
 
